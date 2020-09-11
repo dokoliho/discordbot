@@ -9,7 +9,8 @@ https://discord.com/developers/applications
 Die Applikation erhält als nächstes einen Bot-User, der Servern beitreten kann. 
 Dieser User besitzt ein Token, das später im Programmcode benötigt wird, 
 um den Bot-Code mit diesem Bot-User zu verbinden bzw. damit sich der
-Code als dieser Bot-User identifizieren kann.
+Code als dieser Bot-User identifizieren kann. Wir speichern das Token in einer
+separaten Datei .env, die nicht in die Versionsverwaltung mit eingecheckt wird (Security). 
 
 ## Einladen des Bots
 
@@ -38,6 +39,7 @@ Bei einer konkreten Anwendung wird man unterscheiden müssen
 Dazu bietet der Python-Wrapper für die Discord-Api einige Objekte mit 
 entsprechenden Funktionen.
 
+https://discordpy.readthedocs.io/en/latest/index.html
 
 
 
